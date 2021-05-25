@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "headerfiles_faculty.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "headerfiles_student.h": "c",
+        "headerfiles_viewresult.h": "c",
+        "ctype.h": "c"
+    }
+}

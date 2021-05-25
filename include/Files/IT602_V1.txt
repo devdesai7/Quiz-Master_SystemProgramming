@@ -1,0 +1,6 @@
+Full Form of OOP ?
+A. Object Oriented Progamming B. Ola Oriented Placment 
+Odd one out 
+A. Method Overloading B. Operator Overloading C. Forking 
+Is OOP only in JAVA
+A. True B. Fase 

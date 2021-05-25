@@ -1,0 +1,28 @@
+#For Lib
+IDIR =../include
+CC=gcc
+CFLAGS=-I$(IDIR)
+
+#For Obj
+ODIR=obj
+#For Libs
+LDIR =../lib
+LIBS=-lm
+
+#For Header
+_DEPS= HeaderFiles_Faculty.h 
+DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
+
+#Create Obj Files
+_OBJ = Faculty_Main.o EnterQuiz.o DeleteQuiz.o ViewMarks.o
+OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
+
+$(ODIR)/%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+BINPATH=../bin
+
+$(BINPATH)/FacultyRunable: $(OBJ)
+	$(CC) -o $@ $^ 
+	
+

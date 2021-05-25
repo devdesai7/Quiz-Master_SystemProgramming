@@ -1,0 +1,4 @@
+Full of OS ?
+A. Operating System  B. Overload System 
+Odd one out ?
+A. Forking  B. File IO C. Method Overload 
